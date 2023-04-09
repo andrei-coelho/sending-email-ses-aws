@@ -3,6 +3,8 @@ import { join } from 'path';
 
 AWS.config.loadFromPath(join(__dirname, '../config.production.json'))
 
+let andrei;
+
 let params = {
     Destination: { 
       ToAddresses: [
